@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Cry</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- navbar start hear -->
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-2 text-center">
+                 <img src="image/logo/logo.png" alt="" class="ps-5">
+            </div>
+            <div class="col-8 col-sm-8  col-md-9 col-lg-8 mt-3">
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search product" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+            <div class="col-4 col-sm-4 col-md-3 col-lg-2 mt-4 ps-4">
+                <i class="bi bi-instagram" id="icon"></i>
+                <i class="bi bi-whatsapp" id="icon"></i>
+                <i class="bi bi-twitter" id="icon"></i>
+                <i class="bi bi-facebook" id="icon"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- header start hear -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning mt-3">
+    <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             <b> All Categories</b>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Toys</a></li>
+              <li><a class="dropdown-item" href="#">Girls Cloths</a></li>
+              <li><a class="dropdown-item" href=""> boys Cloths</a></li>
+              <li><a class="dropdown-item" href="#">Baby food</a></li>
+            </ul>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link"  href="#">BOY FASHION</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">GIRL FASHION</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"  href="#">FOOTWEAR</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">TOYS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"  href="#">NURSERY</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">HEALTH</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">BATH</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+    <ul id="ul">
+        <li class="dropdown mt-3 me-5" ><a href="#" class="dropdown-toggle text-dark text-bold "  id="account" data-bs-toggle="dropdown"><i
+            class="bi bi-person "></i> Account</a>
+    <ul class="dropdown-menu">
+        <li><a href="" data-bs-toggle="modal" data-bs-target="#log">SignIn!</a></li>
+        <li><a href="">SignUp!</a></li>
+    </ul>
+</li>
+    </ul>
+  </div>
+</nav>
+
+<!-- slider section start hear-->
+<div class="container mt-5 ">
+<div id="carouselExampleFade"  class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner" id="slide"> 
+      <div class="carousel-item active">
+        <img src="image/slid/s1.png"  class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="image/slid/s2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="image/slid/s3.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="image/slid/s4.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="image/slid/s5.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+
+<!-- toys section start hear -->
+<div class="card">
+    <div class="card-header bg-dark text-white container-fluid">
+        <h5>TOYS <button type="button" class="btn btn-sm btn-secondary float-end">view All</button>
+        </h5>
+    </div>
+    <div class="card-body">
+        <div class="row">
+
+            <div class=" col-sm-6 col-lg-3">
+                <center>
+                    <div class="img-thumbnail shadow">
+                        <img src="image/toys/t1.png" class="img-fluid">
+                        <p><b>Mens shirts</b></p>
+                        <p><b>Price</b>Rs.1580-/ <del>2548-/</del></p>
+                        <p><b><a href="#" class="btn btn-warning btn">click for More >></a></b></p>
+                    </div>
+                </center>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <center>
+                    <div class="img-thumbnail shadow">
+                        <img src="image/toys/t2.png" class="img-fluid">
+                        <p><b>Mens shirts</b></p>
+                        <p><b>Price</b>Rs.5580-/ <del>7548-/</del></p>
+                        <p><b><a href="#" class="btn btn-warning btn">click for More >></a></b></p>
+                    </div>
+                </center>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+                <center>
+                    <div class="img-thumbnail shadow">
+                        <img src="image/toys/t3.png" class="img-fluid">
+                        <p><b>Mens shirts</b></p>
+                        <p><b>Price</b>Rs.4580-/ <del>8548-/</del></p>
+                        <p><b><a href="#" class="btn btn-warning btn">click for More >></a></b></p>
+                    </div>
+                </center>
+            </div>
+
+
+            <div class="col-md-6 col-lg-3">
+                <center>
+                    <div class="img-thumbnail shadow">
+                        <img src="image/toys/t4.png" class="img-fluid">
+                        <p><b>Mens shirts</b></p>
+                        <p><b>Price</b>Rs.580-/ <del>648-/</del></p>
+                        <p><b><a href="#" class="btn btn-warning btn">click for More >></a></b></p>
+                    </div>
+                </center>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- girls section start hear -->
+<div class="card">
+    <div class="card-header bg-dark text-white">
+        <h5>GIRLS FASHION<button type="button" class="btn btn-sm btn-secondary float-end">view All</button>
+        </h5>
+    </div>
+    <div class="card-body">
+        <div class="row">
+
+            <div class="col-sm-6 col-lg-3">
+                <center>
+                    <div class="img-thumbnail shadow">
+                        <img src="image/girls/g1.png" class="img-fluid">
+                        <p><b>Mens shirts</b></p>
+                        <p><b>Price</b>Rs.1580-/ <del>2548-/</del></p>
+                        <p><b><a href="#" class="btn btn-warning btn">click for More >></a></b></p>
+                    </div>
+                </center>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+                <center>
+                    <div class="img-thumbnail shadow">
+                        <img src="image/girls/g2.png" class="img-fluid">
+                        <p><b>Mens shirts</b></p>
+                        <p><b>Price</b>Rs.5580-/ <del>7548-/</del></p>
+                        <p><b><a href="#" class="btn btn-warning btn">click for More >></a></b></p>
+                    </div>
+                </center>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+                <center>
+                    <div class="img-thumbnail shadow">
+                        <img src="image/girls/g3.png" class="img-fluid">
+                        <p><b>Mens shirts</b></p>
+                        <p><b>Price</b>Rs.4580-/ <del>8548-/</del></p>
+                        <p><b><a href="#" class="btn btn-warning btn">click for More >></a></b></p>
+                    </div>
+                </center>
+            </div>
+
+
+            <div class="col-sm-6 col-lg-3">
+                <center>
+                    <div class="img-thumbnail shadow">
+                        <img src="image/girls/g4.png" class="img-fluid">
+                        <p><b>Mens shirts</b></p>
+                        <p><b>Price</b>Rs.580-/ <del>648-/</del></p>
+                        <p><b><a href="#" class="btn btn-warning btn">click for More >></a></b></p>
+                    </div>
+                </center>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- boys section start hear -->
+
+<div class="card">
+    <div class="card-header bg-dark text-white">
+        <h5>BOYS FASHION<button type="button" class="btn btn-sm btn-secondary float-end">view All</button>
+        </h5>
+    </div>
+    <div class="card-body">
+        <div class="row">
+
+            <div class="col-sm-6 col-lg-3">
+                <center>
+                    <div class="img-thumbnail shadow">
+                        <img src="image/boys/b1.png" class="img-fluid">
+                        <p><b>Mens shirts</b></p>
+                        <p><b>Price</b>Rs.1580-/ <del>2548-/</del></p>
+                        <p><b><a href="#" class="btn btn-warning btn">click for More >></a></b></p>
+                    </div>
+                </center>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+                <center>
+                    <div class="img-thumbnail shadow">
+                        <img src="image/boys/b2.png" class="img-fluid">
+                        <p><b>Mens shirts</b></p>
+                        <p><b>Price</b>Rs.5580-/ <del>7548-/</del></p>
+                        <p><b><a href="#" class="btn btn-warning btn">click for More >></a></b></p>
+                    </div>
+                </center>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+                <center>
+                    <div class="img-thumbnail shadow">
+                        <img src="image/boys/b3.png" class="img-fluid">
+                        <p><b>Mens shirts</b></p>
+                        <p><b>Price</b>Rs.4580-/ <del>8548-/</del></p>
+                        <p><b><a href="#" class="btn btn-warning btn">click for More >></a></b></p>
+                    </div>
+                </center>
+            </div>
+
+
+            <div class="col-sm-6 col-lg-3">
+                <center>
+                    <div class="img-thumbnail shadow">
+                        <img src="image/boys/b4.png" class="img-fluid">
+                        <p><b>Mens shirts</b></p>
+                        <p><b>Price</b>Rs.580-/ <del>648-/</del></p>
+                        <p><b><a href="#" class="btn btn-warning btn">click for More >></a></b></p>
+                    </div>
+                </center>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- footer start hear -->
+
+<div class="container-fluid bg-dark text-white">
+    <div class="row">
+        <div class="col-4 col-md-2 mt-5 ps-5">
+            <p><b>USEFUL LINKS</b></p>
+            <p>Blog</p>
+            <p>Careers</p>
+            <p>Site Map</p>
+        </div>
+        <div class="col-4 col-md-3 mt-5 ps-5">
+            <div class="row">
+                <p><b>CUSTOMER POLICIES </b></p>
+                <div class="col">
+                    <p>Contect Us</p>
+                    <p>FAQ</p>
+                    <p>T&C</p>
+                    <p>Terms of Use</p>
+                </div>
+                <div class="col">
+                    <p>Track Order</p>
+                    <p>Shipping</p>
+                    <p>cancellation</p>
+                    <p>Return</p>       
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="col-4 col-md-3 mt-5 ps-5">
+            <i class="fa-brands fa-google-pay" id="pay"></i>
+            <i class="fa-brands fa-cc-paypal" id="pay"></i><br>
+            <i class="fa-brands fa-cc-apple-pay" id="pay"></i>
+            <i class="fa-brands fa-cc-amazon-pay" id="pay"></i>
+        </div>
+        <div class="col-12 col-md-3 mt-5">
+            <p><b>100% ORIGINAL</b> guarantee for all products at firstcry.com </p>
+            <p><b>Return within 5 days</b> of receiving your order</p>
+            <p><b>KEEP IN TOUCH</b></p>
+            <i class="bi bi-instagram" id="ficon"></i>
+            <i class="bi bi-whatsapp" id="ficon"></i>
+            <i class="bi bi-twitter" id="ficon"></i>
+            <i class="bi bi-facebook" id="ficon"></i>
+        </div>
+    </div>
+</div>
+
+
+<!-- modal login form -->
+
+<div class="modal fade" id="log" role="dialog">
+    <div class="modal-dialog mt-5">
+        <div class="modal-content p-4 bg-dark">
+            <h3 class="text-center p-2 text-white">Login Form</h3>
+            <hr class="border border-2 bg-white mx-auto w-50">
+
+            <div class="form-group mt-2 col-md-9 mx-auto">
+                <input type="text" name="email" placeholder="Email *" required class="form-control">
+            </div>
+            <div class="form-group mt-2 col-md-9 mx-auto">
+                <input type="password" name="pass" placeholder="password *" required class="form-control">
+            </div>
+
+            <div class="form-group mt-2 col-md-9 mx-auto">
+                <input type="submit" name="login" placeholder="Email *" required class="btn btn-danger btn-lg" value="Login">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
